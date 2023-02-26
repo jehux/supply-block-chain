@@ -7,10 +7,9 @@ require('@solana/wallet-adapter-react-ui/styles.css')
 function Header({ connected, publicKey, initializeUser , initialized, transactionPending}) {
     return (
         <header className="sticky top-0 transition-all md:grid md:grid-cols-3 items-center px-10 xl:px-20 py-4 z-50 bg-white border-b">
-            <div>
-                <img src="trazzy.jpeg" alt="logo" height="100"/> 
+            <div className=' xl:justify-center px-36 transition-all duration-300'>
+                    <img src="logoS.svg" alt="logo" height='10vw' /> 
             </div>
-
             <div className="flex-1 flex xl:justify-center px-6 transition-all duration-300">
                 <button className="flex-1 flex items-center justify-between border rounded-full p-2 w-[300px] shadow-sm hover:shadow-md transition-all">
                     <div className="flex items-center divide-x">

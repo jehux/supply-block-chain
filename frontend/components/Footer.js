@@ -14,7 +14,7 @@ function Footer() {
             <div className="flex items-center space-x-6">
                 <div className="flex items-center space-x-2">
                     <GlobeAmericasIcon className="h-5 w-5 transition-all duration-300 text-gray-800" />
-                    <p className="text-sm font-light">English (US)</p>
+                    <p className="text-sm font-light">Español (MX)</p>
                 </div>
                 <div className="flex space-x-2">
                     <p className="text-sm font-light">RM</p>
