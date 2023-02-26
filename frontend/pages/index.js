@@ -38,8 +38,6 @@ export default function Home() {
         setShowReservedListing(!showReservedListing)
     }
 
-
-
     const toggleEditListingModal = (listingID) => {
         setCurrentEditListingID(listingID)
 
@@ -79,7 +77,7 @@ export default function Home() {
                 {connected && (
                     <div className="px-20 pb-10 flex justify-end space-x-4">
                         <button onClick={toggleShowReservedListing} className="border rounded-lg p-4 text-xs font-medium">
-                            {showReservedListing ? 'Reserved' : 'All'}
+                            {showReservedListing ? 'Descontinuado' : 'Todo'}
                         </button>
                         <button onClick={() => setAddListingModalOpen(true)} className="border rounded-lg p-4 text-xs font-medium">
                             Agregar a la lista

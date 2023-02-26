@@ -42,17 +42,17 @@ export default function AddListingModal({ addAirbnb, addListingModalOpen, setAdd
                                 <div className="mt-2">
                                     <div className="grid grid-cols-1 gap-3">
                                         <label className="flex flex-col border rounded-lg px-3 py-2" htmlFor="location">
-                                            <span className="text-xs font-light">Location</span>
+                                            <span className="text-xs font-light">Locacion actual</span>
                                             <input onChange={(e) => setLocation(e.target.value)} className="outline-none bg-transparent text-sm pt-1" type="text" id="location" name="location" />
                                         </label>
 
                                         <label className="flex flex-col border rounded-lg px-3 py-2" htmlFor="country">
-                                            <span className="text-xs font-light">Country</span>
+                                            <span className="text-xs font-light">Procedencia</span>
                                             <input onChange={(e) => setCountry(e.target.value)} className="outline-none bg-transparent text-sm pt-1" type="text" id="country" name="country" />
                                         </label>
 
                                         <label className="flex flex-col border rounded-lg px-3 py-2" htmlFor="price">
-                                            <span className="text-xs font-light">Price</span>
+                                            <span className="text-xs font-light">Cantidad en palet</span>
                                             <input onChange={(e) => setPrice(e.target.value)} className="outline-none bg-transparent text-sm pt-1" type="number" id="price" name="price" />
                                         </label>
 
