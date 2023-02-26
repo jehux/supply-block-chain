@@ -68,7 +68,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>Trazii</title>
+                <title>Trazzy</title>
             </Head>
 
             <Header connected={connected} publicKey={publicKey} initializeUser = {initializeUser} initialized = {initialized} transactionPending = {transactionPending}/>
