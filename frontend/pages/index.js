@@ -68,7 +68,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>Airbnb Clone</title>
+                <title>Trazii</title>
             </Head>
 
             <Header connected={connected} publicKey={publicKey} initializeUser = {initializeUser} initialized = {initialized} transactionPending = {transactionPending}/>
