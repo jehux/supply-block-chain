@@ -82,7 +82,7 @@ export default function Home() {
                             {showReservedListing ? 'Reserved' : 'All'}
                         </button>
                         <button onClick={() => setAddListingModalOpen(true)} className="border rounded-lg p-4 text-xs font-medium">
-                            Add Listing
+                            Agregar a la lista
                         </button>
                     </div>
                 )}

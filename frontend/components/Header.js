@@ -15,12 +15,12 @@ function Header({ connected, publicKey, initializeUser , initialized, transactio
                 <button className="flex-1 flex items-center justify-between border rounded-full p-2 w-[300px] shadow-sm hover:shadow-md transition-all">
                     <div className="flex items-center divide-x">
                         <p className="text-gray-800 bg-transparent text-sm font-medium px-4" type="text">
-                            Anywhere
+                            Cualquier lado
                         </p>
                         <p className="text-gray-800 bg-transparent text-sm font-medium px-4" type="text">
-                            Any week
+                            cualquier semana
                         </p>
-                        <p className="text-gray-600 bg-transparent text-sm font-light px-4">Add guests</p>
+                        <p className="text-gray-600 bg-transparent text-sm font-light px-4">Agregar sugerencia</p>
                     </div>
                     <MagnifyingGlassIcon className="h-8 w-8 bg-[#FF385C] text-white stroke-[3.5px] p-2 rounded-full" />
                 </button>
@@ -46,7 +46,7 @@ function Header({ connected, publicKey, initializeUser , initialized, transactio
                         Inizializar
                     </button>)}  
                 <WalletMultiButton className="phantom-button" startIcon={<UserCircleIcon style={{ height: 32, width: 32, color: '#1f2937' }} />}>
-                    <span className="text-sm font-medium text-black">{connected ? truncate(publicKey.toString()) : 'Connect Wallet'}</span>
+                    <span className="text-sm font-medium text-black">{connected ? truncate(publicKey.toString()) : 'Conectar a Wallet'}</span>
                 </WalletMultiButton>
             </div>
         </header>

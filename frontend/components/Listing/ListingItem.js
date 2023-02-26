@@ -41,13 +41,13 @@ function ListingItem({ idx, publickey, connected, showReservedListing,location,c
                     </div>
                 </div>
 
-                <p className="text-sm font-light text-gray-600">{788} kilometers</p>
+                <p className="text-sm font-light text-gray-600">etapa {1} de la cadena</p>
 
                 {showReservedListing && <p className="text-sm font-light text-gray-600">{date}</p>}
 
                 <p className="text-sm font-light text-gray-800 mt-2">
-                    <span className="text-base font-medium">RM {price}</span>
-                    &nbsp;night
+                    <span className="text-base font-medium"> {price}</span>
+                    &nbsp; Cantidad en palet
                 </p>
             </div>
         </div>
