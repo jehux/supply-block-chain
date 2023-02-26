@@ -8,7 +8,7 @@ function Header({ connected, publicKey, initializeUser , initialized, transactio
     return (
         <header className="sticky top-0 transition-all md:grid md:grid-cols-3 items-center px-10 xl:px-20 py-4 z-50 bg-white border-b">
             <div>
-                <img src="https://www.mmt-maquinaria.es/mmt-extra/fil/639/logobig.png" alt="logo" /> 
+                <img src="trazzy.jpeg" alt="logo" height="100"/> 
             </div>
 
             <div className="flex-1 flex xl:justify-center px-6 transition-all duration-300">

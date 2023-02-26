@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
     return (
         <>
             <Head>
-                <title>Traziii</title>
+                <title>Trazzy</title>
             </Head>
             <WalletConnectionProvider>
                 <Component {...pageProps} />
