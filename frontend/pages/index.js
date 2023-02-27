@@ -80,7 +80,7 @@ export default function Home() {
                             {showReservedListing ? 'Descontinuado' : 'Todo'}
                         </button>
                         <button onClick={() => setAddListingModalOpen(true)} className="border rounded-lg p-4 text-xs font-medium">
-                            Agregar a la lista
+                            Agregar producto
                         </button>
                     </div>
                 )}
