@@ -4,37 +4,29 @@ import { AdjustmentsHorizontalIcon } from '@heroicons/react/24/outline'
 function FilterMenu() {
     const menus = [
         {
-            title: 'articulos de OMG!',
-            icon: 'https://a0.muscache.com/pictures/c5a4f6fc-c92c-4ae8-87dd-57f1ff1b89a6.jpg',
+            title: 'Materias primas',
+            icon: 'https://cdn-icons-png.flaticon.com/512/4748/4748334.png',
         },
         {
-            title: 'Bisuteria',
-            icon: 'https://a0.muscache.com/pictures/10ce1091-c854-40f3-a2fb-defc2995bcaf.jpg',
+            title: 'Producción',
+            icon: 'https://cdn-icons-png.flaticon.com/512/1433/1433114.png',
         },
         {
-            title: 'Articulos de natacion',
-            icon: 'https://a0.muscache.com/pictures/3fb523a0-b622-4368-8142-b5e03df7549b.jpg',
+            title: 'Transporte y logistica',
+            icon: 'https://cdn-icons-png.flaticon.com/512/819/819873.png',
         },
         {
-            title: 'Articulos de construccion',
+            title: 'Sucursales',
             icon: 'https://a0.muscache.com/pictures/35919456-df89-4024-ad50-5fcb7a472df9.jpg',
         },
         {
-            title: 'Tierras',
-            icon: 'https://a0.muscache.com/pictures/8e507f16-4943-4be9-b707-59bd38d56309.jpg',
+            title: 'Alacenamiento o bodegaje',
+            icon: 'https://cdn-icons-png.flaticon.com/512/3608/3608989.png',
         },
         {
-            title: 'Propiedades',
-            icon: 'https://a0.muscache.com/pictures/50861fca-582c-4bcc-89d3-857fb7ca6528.jpg',
-        },
-        {
-            title: 'Rastreo de lugares',
-            icon: 'https://a0.muscache.com/pictures/677a041d-7264-4c45-bb72-52bff21eb6e8.jpg',
-        },
-        {
-            title: 'Articulos de surff',
-            icon: 'https://a0.muscache.com/pictures/957f8022-dfd7-426c-99fd-77ed792f6d7a.jpg',
-        },
+            title: 'Distribución y entregas',
+            icon: 'https://cdn-icons-png.flaticon.com/512/4503/4503284.png',
+        }
     ]
 
     return (

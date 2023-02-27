@@ -6,7 +6,8 @@ const nextConfig = {
   },
   images: {
     domains: [
-      'a0.muscache.com'
+      'a0.muscache.com',
+      'cdn-icons-png.flaticon.com',
     ],
   },
 }
